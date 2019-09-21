@@ -1,0 +1,17 @@
+---
+- hosts: docker_machine
+  become: true
+
+  tasks:
+  - name: Remove running container.
+    command: for i in `docker ps` | grep catalina.sh | awk -F' ' " print $1 }";do docker kill $i; done
+  - name: Remove docker image.
+    command: docker rmi simple-devops-image
+  - name: Remove docker container
+    command: docker rm simple-devops-container 
+  - name: build docker image using war file.
+    command: docker build -t simple-devops-image .
+    args:
+      chdir: /opt/docker
+  - name: Create container using simple devops image.
+    command: docker run -d --name simple-devops-container -p 8080:8080 simple-devops-image
