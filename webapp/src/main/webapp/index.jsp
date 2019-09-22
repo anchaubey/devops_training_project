@@ -4,6 +4,10 @@
 <h2> Hope you enjoy learning. Changes made. Changes done. </h2>
 <style>
 body {
-    background-color: #d24dff;
+    background: -webkit-linear-gradient(#93B874, #C9DCB9);
+    background: -o-linear-gradient(#93B874, #C9DCB9);
+    background: -moz-linear-gradient(#93B874, #C9DCB9);
+    background: linear-gradient(#93B874, #C9DCB9);
+    background-color: #93B874;
 }
 </style>
