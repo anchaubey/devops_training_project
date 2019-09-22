@@ -4,7 +4,11 @@
 <title>RDX Devops Project</title>
 
 <h1> Hello, Welcome to RDX DevOps Project !!   </h1>
-<h4> Deploying on a kubernetes using ansible and changing the web content now.  </h4>
+<h4> Deploying on a kubernetes using ansible.  </h4>
+<h4> DevOps (development and operations) is an enterprise software development phrase  </h4>
+<h4> used to mean a type of agile relationship between development and IT operations. </h4>
+<h4> The goal of DevOps is to change and improve the relationship by advocating better </h4>
+<h4> communication and collaboration between these two business units. </h4>
 <h4> Hope you enjoy learning. Good luck!! </h4>
 
 <style>
