@@ -10,7 +10,7 @@
 
 <style>
 body {
-	background-image: url("https://devopedia.org/images/article/54/7602.1513404277.png");
+	background-image: url("https://blog.testlodge.com/wp-content/uploads/2018/06/what-is-devops-1024x538.png");
         background-repeat:no-repeat;
        background-size:cover;
 } 
